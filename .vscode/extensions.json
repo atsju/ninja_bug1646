@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "austin.code-gnu-global",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        "aaron-bond.better-comments",
+    ]
+}

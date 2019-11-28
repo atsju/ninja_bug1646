@@ -1,0 +1,21 @@
+{
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "cmake.buildDirectory": "${workspaceRoot}/build_${buildType}",
+    "cmake.copyCompileCommands": "${workspaceRoot}/compile_commands.json",
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    //prefer Unix Makefiles because ninja has a bug with static libraries
+    "cmake.preferredGenerators": [
+    //    "Unix Makefiles",
+        "Ninja"
+    ],
+    //automatic detection of number of cores for makefile
+    //"cmake.parallelJobs": 0,
+    "files.associations": {
+        "*.tpp": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
